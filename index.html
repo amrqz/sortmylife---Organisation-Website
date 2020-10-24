@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="resources/css/reset.css">
+    <link rel="stylesheet" href="resources/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aelyssa's Home Page</title>
+</head>
+<body>
+    <!-- Banner -->
+    <div class="banner">
+        <h1>hello aelyssa</h1>
+        <p><a href="contents.html">click here to continue</a></p>
+        <span id="datetime"></span>
+    </div>
+    
+    <!-- finding date and time -->
+    <script id="datetime">
+    var dt = new Date();
+    document.getElementById("datetime").innerHTML = (("0"+dt.getDate()).slice(-2)) +"."+ (("0"+(dt.getMonth()+1)).slice(-2)) +"."+ (dt.getFullYear()) +" "+ (("0"+dt.getHours()).slice(-2)) +":"+ (("0"+dt.getMinutes()).slice(-2));
+    </script>
+    
+    <!-- background image -->
+    <div class="constellation">
+        <img src="resources/images/constellation.jpg">
+    </div>
+
+</body>
+</html>
