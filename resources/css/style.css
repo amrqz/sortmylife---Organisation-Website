@@ -152,10 +152,15 @@ li a {
 
 /* searching page */
 
-.searching-page {
+/* .searching-page {
     background-image: url('../images/clouds.jpg');
     height: 38.5rem;
     background-size: contain;
+} */
+
+.searching-page {
+    background-image: url('../images/clouds.jpg');
+    background-size: 50rem;
 }
 
 .searching-page h1 {
